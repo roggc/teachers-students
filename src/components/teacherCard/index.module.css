@@ -1,0 +1,34 @@
+.card{
+    box-shadow: 0 0 1px;
+    width:300px;
+    border-radius:6px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.card .title{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:lightgrey;
+    padding:10px;
+}
+
+.card .body{
+    padding:10px;
+}
+
+.body .item{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.body .item .col{
+    width:50%;
+}
+
+.selectable{
+    cursor:pointer;
+}
