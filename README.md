@@ -1,2 +1,0 @@
-# teachers-students
-react app
